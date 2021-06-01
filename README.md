@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'LXBRollingView'
 ```
 ## 使用方法
-创建自定义cell 继承于 TPNoticeViewCell
+```创建自定义cell 继承于 TPNoticeViewCell
 @interface TPFianceRollTextCell : TPNoticeViewCell
 
 - (void)updateWithModel:(listContObjectVO *)model;
@@ -73,7 +73,7 @@ typedef NS_ENUM(NSUInteger, RollingStyle) {
     RollingStyleDefault = 0, ///默认样式，滚动轮播
     RollingStyleFade = 1, /// 渐变轮播
 };
-
+```
 ## Author
 
 liuboliu, 2534660131@qq.com
