@@ -1,0 +1,16 @@
+PODS:
+  - LXBRollingView (0.1.0)
+
+DEPENDENCIES:
+  - LXBRollingView (from `../`)
+
+EXTERNAL SOURCES:
+  LXBRollingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LXBRollingView: c1004ea18fa856ae062204c5d93545fbb8ada710
+
+PODFILE CHECKSUM: 5df40428dfe973f2b8bf696643f28f01a94775dd
+
+COCOAPODS: 1.10.1
