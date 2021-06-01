@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5C8F912666748A00551140 /* KKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5C8F8F2666748A00551140 /* KKView.h */; };
+		3A5C8F922666748A00551140 /* KKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C8F902666748A00551140 /* KKView.m */; };
 		58CED84D873AA09735D29D39F8B7A2E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5EEB5DFB4EAAF687D905D57044740783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		68249C87F36570E8231273B70394DFE4 /* Pods-LXBRollingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8253E1BB2747B27AF6A315A73A149D9D /* Pods-LXBRollingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,12 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07AFEA37705DA23E655CE7C4CE7ED86A /* LXBRollingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXBRollingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07AFEA37705DA23E655CE7C4CE7ED86A /* LXBRollingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LXBRollingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A91C99CDE3C81069F689A00D3EABE15 /* LXBRollingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXBRollingView-dummy.m"; sourceTree = "<group>"; };
 		19FCB220A6DE599C053829A56714AC30 /* LXBRollingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXBRollingView.release.xcconfig; sourceTree = "<group>"; };
 		2124A8BC3DE9F486B7F17B330BEED3F4 /* LXBRollingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXBRollingView.modulemap; sourceTree = "<group>"; };
-		3A313F63502E8A0EF02143299D0F64BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		40E1D831C1486D0DD2E56E28F325F79F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3A313F63502E8A0EF02143299D0F64BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3A5C8F8F2666748A00551140 /* KKView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KKView.h; path = LXBRollingView/Classes/KKView.h; sourceTree = "<group>"; };
+		3A5C8F902666748A00551140 /* KKView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KKView.m; path = LXBRollingView/Classes/KKView.m; sourceTree = "<group>"; };
+		40E1D831C1486D0DD2E56E28F325F79F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		44EF67DA10ED86FEBA34B52D89F8E54C /* Pods-LXBRollingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXBRollingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52E21A88BEF0CE79CA9F58154FF42E47 /* Pods-LXBRollingView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXBRollingView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5D500FA790C439A9777491C44BF02C93 /* Pods-LXBRollingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXBRollingView_Tests.modulemap"; sourceTree = "<group>"; };
@@ -55,7 +59,7 @@
 		8253E1BB2747B27AF6A315A73A149D9D /* Pods-LXBRollingView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXBRollingView_Example-umbrella.h"; sourceTree = "<group>"; };
 		85C5DF25474233E967F80DE28909C4FC /* Pods-LXBRollingView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXBRollingView_Example-Info.plist"; sourceTree = "<group>"; };
 		9B8DE884CE6D1D4230C52374074FB394 /* Pods-LXBRollingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXBRollingView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABE11483D1B5C0DF54CA86F23B808CCE /* Pods-LXBRollingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXBRollingView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ABEB1F49E83C5DDED048A7F90896231C /* Pods-LXBRollingView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXBRollingView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF0EC723B4540D81A66EF2554A71829E /* Pods-LXBRollingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXBRollingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,11 +68,11 @@
 		B707DC99FD9C5990C41D76E0B60B4F2F /* LXBRollingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXBRollingView-prefix.pch"; sourceTree = "<group>"; };
 		BD2B82D808D4CB572320A565339B8A06 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LXBRollingView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		BD63F101A5200B560912CBDFA24DC7CC /* Pods-LXBRollingView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXBRollingView_Example.modulemap"; sourceTree = "<group>"; };
-		CAAB7AB5B09C340240A9351F4FD0A79B /* LXBRollingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXBRollingView.framework; path = LXBRollingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE02A6FA5866A6F8FF853361AB22BA46 /* Pods_LXBRollingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXBRollingView_Example.framework; path = "Pods-LXBRollingView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAB7AB5B09C340240A9351F4FD0A79B /* LXBRollingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXBRollingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE02A6FA5866A6F8FF853361AB22BA46 /* Pods_LXBRollingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXBRollingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2973E430A09FC1A1D34D289CB597758 /* Pods-LXBRollingView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXBRollingView_Tests-Info.plist"; sourceTree = "<group>"; };
 		EDCB6940776E49BBEEF425154F1BE1D9 /* Pods-LXBRollingView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXBRollingView_Tests-dummy.m"; sourceTree = "<group>"; };
-		EE68B0110860557E57ADC07533482188 /* Pods_LXBRollingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXBRollingView_Tests.framework; path = "Pods-LXBRollingView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE68B0110860557E57ADC07533482188 /* Pods_LXBRollingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXBRollingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB848BCEF3186D2B306CBE00365AE5D9 /* LXBRollingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXBRollingView-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +178,8 @@
 				BD2B82D808D4CB572320A565339B8A06 /* ReplaceMe.m */,
 				BCA4418E519E3F2351F0A49EB4884B69 /* Pod */,
 				8AA467E564B607ECF5C587DE85ECF529 /* Support Files */,
+				3A5C8F8F2666748A00551140 /* KKView.h */,
+				3A5C8F902666748A00551140 /* KKView.m */,
 			);
 			name = LXBRollingView;
 			path = ../..;
@@ -231,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C500C54B0B31E1ED90B660538938BFE3 /* LXBRollingView-umbrella.h in Headers */,
+				3A5C8F912666748A00551140 /* KKView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +392,7 @@
 			files = (
 				FF934B27F9C4EDCF464C0DC4AD17935A /* LXBRollingView-dummy.m in Sources */,
 				DE39C4F6FA4FC423C9EA30CB920F9CFB /* ReplaceMe.m in Sources */,
+				3A5C8F922666748A00551140 /* KKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
