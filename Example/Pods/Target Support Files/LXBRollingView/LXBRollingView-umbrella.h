@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "KKView.h"
+#import "LLLView.h"
+#import "TPNoticeViewCell.h"
+#import "TPRollingNoticeView.h"
 
 FOUNDATION_EXPORT double LXBRollingViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char LXBRollingViewVersionString[];

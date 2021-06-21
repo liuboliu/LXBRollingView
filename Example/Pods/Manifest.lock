@@ -1,5 +1,5 @@
 PODS:
-  - LXBRollingView (0.1.0)
+  - LXBRollingView (0.1.3)
 
 DEPENDENCIES:
   - LXBRollingView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LXBRollingView: c1004ea18fa856ae062204c5d93545fbb8ada710
+  LXBRollingView: cf4937c07f8b83d6f34cad9077e03d69f7a3149d
 
 PODFILE CHECKSUM: 5df40428dfe973f2b8bf696643f28f01a94775dd
 

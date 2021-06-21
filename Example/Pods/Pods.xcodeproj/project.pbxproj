@@ -7,29 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A5C8F912666748A00551140 /* KKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5C8F8F2666748A00551140 /* KKView.h */; };
-		3A5C8F922666748A00551140 /* KKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C8F902666748A00551140 /* KKView.m */; };
+		099FFBAE1F8DE92310C69747F00A8732 /* KKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC3D70CB233F19B2EC79107ED192A22 /* KKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5C8FDF26668BFF00551140 /* UUView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5C8FDD26668BFF00551140 /* UUView.h */; };
+		3A5C8FE026668BFF00551140 /* UUView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C8FDE26668BFF00551140 /* UUView.m */; };
+		3AD3A6D6A459AA53DB8F58AF71AED6EA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469C6F3BAD1F88622E665CC5CC2A041 /* ReplaceMe.m */; };
 		58CED84D873AA09735D29D39F8B7A2E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5EEB5DFB4EAAF687D905D57044740783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		65D34DB1FAFC3A89F1FF060829ECA00C /* LLLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E63443A13605A641845D893B38B80F /* LLLView.m */; };
 		68249C87F36570E8231273B70394DFE4 /* Pods-LXBRollingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8253E1BB2747B27AF6A315A73A149D9D /* Pods-LXBRollingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79A5E6D234BB57A3E1938582EA8E64A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8CA6234DB8C2D5ADDFF24FA0FB312A8D /* LXBRollingNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD2B5EF5CE7AD4666218624C5E6422F /* LXBRollingNoticeView.m */; };
 		8F75127AD323CC031F96BD8754274807 /* Pods-LXBRollingView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCB6940776E49BBEEF425154F1BE1D9 /* Pods-LXBRollingView_Tests-dummy.m */; };
-		C500C54B0B31E1ED90B660538938BFE3 /* LXBRollingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB848BCEF3186D2B306CBE00365AE5D9 /* LXBRollingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93EEB68380190387C7BD68C0C2AA045F /* LLLView.h in Headers */ = {isa = PBXBuildFile; fileRef = A9EF6DD0FA8E2ACE673C488E292880CF /* LLLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40648EB4CBAB6B8A96AC2F4BE215747 /* LXBRollingNoticeView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6658B8D7F0FCB4DA1612993CA4A95E /* LXBRollingNoticeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B1392F91B8EE19CF85DAA8D39C538B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D6D5393AA510EABCF434CA1CF5616000 /* Pods-LXBRollingView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B674E1FCE3CE2F5D657D0E5FD7EC32C9 /* Pods-LXBRollingView_Example-dummy.m */; };
-		DE39C4F6FA4FC423C9EA30CB920F9CFB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2B82D808D4CB572320A565339B8A06 /* ReplaceMe.m */; };
+		F1E9438DD9104F276A9937AB9385B3F3 /* LXBRollingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DDFC61CDC09D70E33601176A61FEE73 /* LXBRollingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F220B4360BC16C8DDC9AEE52956A260C /* LXBNoticeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E202517805E406AD3B21046CB58D2A /* LXBNoticeViewCell.m */; };
+		F6A734E0511C10A1006E90CE10BE81B8 /* KKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E938CEF0CCBDF79B04872D7AF69DF0A /* KKView.m */; };
+		FB00BE365456A5708AB4E179F0C9E5BD /* LXBNoticeViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FCA53B888B71592E2124A95FFC5DEA7 /* LXBNoticeViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB2F514A4224C5F3BB364CC0637CEFCA /* Pods-LXBRollingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E21A88BEF0CE79CA9F58154FF42E47 /* Pods-LXBRollingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF934B27F9C4EDCF464C0DC4AD17935A /* LXBRollingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A91C99CDE3C81069F689A00D3EABE15 /* LXBRollingView-dummy.m */; };
+		FE36CE3CB66ED9133F197E50080AFDCE /* LXBRollingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 908ECC6EC55D69010322202C5DCC8B23 /* LXBRollingView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1424D281A03E930E8BC553730ECF9273 /* PBXContainerItemProxy */ = {
+		066CE4D0DB48E9881884E43FC44CE87E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9D30068F0C283257603C51DE5952D2CD;
 			remoteInfo = "Pods-LXBRollingView_Example";
 		};
-		CA1AF89099B1AF83F22E80CF94B2AE7E /* PBXContainerItemProxy */ = {
+		E07F3314F37397EFD072C2A917A79895 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,41 +47,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07AFEA37705DA23E655CE7C4CE7ED86A /* LXBRollingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LXBRollingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0A91C99CDE3C81069F689A00D3EABE15 /* LXBRollingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXBRollingView-dummy.m"; sourceTree = "<group>"; };
-		19FCB220A6DE599C053829A56714AC30 /* LXBRollingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXBRollingView.release.xcconfig; sourceTree = "<group>"; };
-		2124A8BC3DE9F486B7F17B330BEED3F4 /* LXBRollingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXBRollingView.modulemap; sourceTree = "<group>"; };
-		3A313F63502E8A0EF02143299D0F64BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3A5C8F8F2666748A00551140 /* KKView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KKView.h; path = LXBRollingView/Classes/KKView.h; sourceTree = "<group>"; };
-		3A5C8F902666748A00551140 /* KKView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KKView.m; path = LXBRollingView/Classes/KKView.m; sourceTree = "<group>"; };
-		40E1D831C1486D0DD2E56E28F325F79F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05A022F9E08C46ECCA22E4E4979652E5 /* LXBRollingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXBRollingView.release.xcconfig; sourceTree = "<group>"; };
+		15E202517805E406AD3B21046CB58D2A /* LXBNoticeViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXBNoticeViewCell.m; path = LXBRollingView/Classes/LXBNoticeViewCell.m; sourceTree = "<group>"; };
+		1FCA53B888B71592E2124A95FFC5DEA7 /* LXBNoticeViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXBNoticeViewCell.h; path = LXBRollingView/Classes/LXBNoticeViewCell.h; sourceTree = "<group>"; };
+		32DD0917B29DE22D6C5B3D8D0958A57D /* LXBRollingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXBRollingView-prefix.pch"; sourceTree = "<group>"; };
+		3A5C8FDD26668BFF00551140 /* UUView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UUView.h; path = LXBRollingView/Classes/UUView.h; sourceTree = "<group>"; };
+		3A5C8FDE26668BFF00551140 /* UUView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UUView.m; path = LXBRollingView/Classes/UUView.m; sourceTree = "<group>"; };
+		3E922C7E4FB1C4DF933F412589F0742E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3F5A278598449A8EE114151D33F1393E /* LXBRollingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXBRollingView.modulemap; sourceTree = "<group>"; };
 		44EF67DA10ED86FEBA34B52D89F8E54C /* Pods-LXBRollingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXBRollingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DDFC61CDC09D70E33601176A61FEE73 /* LXBRollingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXBRollingView-umbrella.h"; sourceTree = "<group>"; };
 		52E21A88BEF0CE79CA9F58154FF42E47 /* Pods-LXBRollingView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXBRollingView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5AC3D70CB233F19B2EC79107ED192A22 /* KKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKView.h; path = LXBRollingView/Classes/KKView.h; sourceTree = "<group>"; };
 		5D500FA790C439A9777491C44BF02C93 /* Pods-LXBRollingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXBRollingView_Tests.modulemap"; sourceTree = "<group>"; };
+		6469C6F3BAD1F88622E665CC5CC2A041 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LXBRollingView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		6567F643416E9DC5199E973C7E2B32C4 /* Pods-LXBRollingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXBRollingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		65C4D666D62F4B97C90E49716E295BD7 /* Pods-LXBRollingView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXBRollingView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66E63443A13605A641845D893B38B80F /* LLLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLLView.m; sourceTree = "<group>"; };
 		6B7B98F53FA5D1E91720BCE4E2A1CA1F /* Pods-LXBRollingView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXBRollingView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		730C207346DA0EF07656D173AC297973 /* Pods-LXBRollingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXBRollingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		741C71CE0EF06009D69B4965050E891B /* LXBRollingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXBRollingView.debug.xcconfig; sourceTree = "<group>"; };
+		7C0606EBD203C48E007069D9965A679B /* LXBRollingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LXBRollingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8253E1BB2747B27AF6A315A73A149D9D /* Pods-LXBRollingView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXBRollingView_Example-umbrella.h"; sourceTree = "<group>"; };
 		85C5DF25474233E967F80DE28909C4FC /* Pods-LXBRollingView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXBRollingView_Example-Info.plist"; sourceTree = "<group>"; };
+		908ECC6EC55D69010322202C5DCC8B23 /* LXBRollingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXBRollingView-dummy.m"; sourceTree = "<group>"; };
 		9B8DE884CE6D1D4230C52374074FB394 /* Pods-LXBRollingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXBRollingView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E938CEF0CCBDF79B04872D7AF69DF0A /* KKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKView.m; path = LXBRollingView/Classes/KKView.m; sourceTree = "<group>"; };
+		A9EF6DD0FA8E2ACE673C488E292880CF /* LLLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLLView.h; sourceTree = "<group>"; };
 		ABE11483D1B5C0DF54CA86F23B808CCE /* Pods-LXBRollingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXBRollingView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ABEB1F49E83C5DDED048A7F90896231C /* Pods-LXBRollingView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXBRollingView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF0EC723B4540D81A66EF2554A71829E /* Pods-LXBRollingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXBRollingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5865937CD26D61E199C7D383A57EF9 /* LXBRollingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXBRollingView.debug.xcconfig; sourceTree = "<group>"; };
 		B674E1FCE3CE2F5D657D0E5FD7EC32C9 /* Pods-LXBRollingView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXBRollingView_Example-dummy.m"; sourceTree = "<group>"; };
-		B6EB44FE25B254A8928785DAD8C5C1AD /* LXBRollingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXBRollingView-Info.plist"; sourceTree = "<group>"; };
-		B707DC99FD9C5990C41D76E0B60B4F2F /* LXBRollingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXBRollingView-prefix.pch"; sourceTree = "<group>"; };
-		BD2B82D808D4CB572320A565339B8A06 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LXBRollingView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		BD63F101A5200B560912CBDFA24DC7CC /* Pods-LXBRollingView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXBRollingView_Example.modulemap"; sourceTree = "<group>"; };
+		C2D2F85EE33200D4C379A8EC4480A30B /* LXBRollingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXBRollingView-Info.plist"; sourceTree = "<group>"; };
 		CAAB7AB5B09C340240A9351F4FD0A79B /* LXBRollingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXBRollingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD2B5EF5CE7AD4666218624C5E6422F /* LXBRollingNoticeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXBRollingNoticeView.m; path = LXBRollingView/Classes/LXBRollingNoticeView.m; sourceTree = "<group>"; };
 		DE02A6FA5866A6F8FF853361AB22BA46 /* Pods_LXBRollingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXBRollingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2973E430A09FC1A1D34D289CB597758 /* Pods-LXBRollingView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXBRollingView_Tests-Info.plist"; sourceTree = "<group>"; };
+		EA6658B8D7F0FCB4DA1612993CA4A95E /* LXBRollingNoticeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXBRollingNoticeView.h; path = LXBRollingView/Classes/LXBRollingNoticeView.h; sourceTree = "<group>"; };
 		EDCB6940776E49BBEEF425154F1BE1D9 /* Pods-LXBRollingView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXBRollingView_Tests-dummy.m"; sourceTree = "<group>"; };
 		EE68B0110860557E57ADC07533482188 /* Pods_LXBRollingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXBRollingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB848BCEF3186D2B306CBE00365AE5D9 /* LXBRollingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXBRollingView-umbrella.h"; sourceTree = "<group>"; };
+		EEC1F31368CA12983BF384761558C096 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,17 +109,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD518C10A1B55A7478010524A4EBEDF7 /* Frameworks */ = {
+		AE5627ECB2C60B3E83BBBC185976C677 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EEB5DFB4EAAF687D905D57044740783 /* Foundation.framework in Frameworks */,
+				D5B1392F91B8EE19CF85DAA8D39C538B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1490833098F7488E67067979D7AF7C41 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3E922C7E4FB1C4DF933F412589F0742E /* LICENSE */,
+				7C0606EBD203C48E007069D9965A679B /* LXBRollingView.podspec */,
+				EEC1F31368CA12983BF384761558C096 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		183C7456881D7249F12A3748676F0144 /* Pods-LXBRollingView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,10 +163,20 @@
 			path = "Target Support Files/Pods-LXBRollingView_Example";
 			sourceTree = "<group>";
 		};
-		4859BB6AC4C2981591BD1B7F3537668C /* Development Pods */ = {
+		42913B85F1990BE76A59F1115DC25B56 /* lll */ = {
 			isa = PBXGroup;
 			children = (
-				7589B9D02FD771242F22871BEAAFA1B7 /* LXBRollingView */,
+				A9EF6DD0FA8E2ACE673C488E292880CF /* LLLView.h */,
+				66E63443A13605A641845D893B38B80F /* LLLView.m */,
+			);
+			name = lll;
+			path = LXBRollingView/Classes/lll;
+			sourceTree = "<group>";
+		};
+		4DB53DD5A16453264E7500ECDC6CDF0D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9919979A49134DE47BB521D43B14F7C /* LXBRollingView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -172,49 +208,46 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7589B9D02FD771242F22871BEAAFA1B7 /* LXBRollingView */ = {
+		870EA2CBA774C7F7869F64ED3646A624 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD2B82D808D4CB572320A565339B8A06 /* ReplaceMe.m */,
-				BCA4418E519E3F2351F0A49EB4884B69 /* Pod */,
-				8AA467E564B607ECF5C587DE85ECF529 /* Support Files */,
-				3A5C8F8F2666748A00551140 /* KKView.h */,
-				3A5C8F902666748A00551140 /* KKView.m */,
-			);
-			name = LXBRollingView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8AA467E564B607ECF5C587DE85ECF529 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2124A8BC3DE9F486B7F17B330BEED3F4 /* LXBRollingView.modulemap */,
-				0A91C99CDE3C81069F689A00D3EABE15 /* LXBRollingView-dummy.m */,
-				B6EB44FE25B254A8928785DAD8C5C1AD /* LXBRollingView-Info.plist */,
-				B707DC99FD9C5990C41D76E0B60B4F2F /* LXBRollingView-prefix.pch */,
-				FB848BCEF3186D2B306CBE00365AE5D9 /* LXBRollingView-umbrella.h */,
-				741C71CE0EF06009D69B4965050E891B /* LXBRollingView.debug.xcconfig */,
-				19FCB220A6DE599C053829A56714AC30 /* LXBRollingView.release.xcconfig */,
+				3F5A278598449A8EE114151D33F1393E /* LXBRollingView.modulemap */,
+				908ECC6EC55D69010322202C5DCC8B23 /* LXBRollingView-dummy.m */,
+				C2D2F85EE33200D4C379A8EC4480A30B /* LXBRollingView-Info.plist */,
+				32DD0917B29DE22D6C5B3D8D0958A57D /* LXBRollingView-prefix.pch */,
+				4DDFC61CDC09D70E33601176A61FEE73 /* LXBRollingView-umbrella.h */,
+				AF5865937CD26D61E199C7D383A57EF9 /* LXBRollingView.debug.xcconfig */,
+				05A022F9E08C46ECCA22E4E4979652E5 /* LXBRollingView.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LXBRollingView";
 			sourceTree = "<group>";
 		};
-		BCA4418E519E3F2351F0A49EB4884B69 /* Pod */ = {
+		C9919979A49134DE47BB521D43B14F7C /* LXBRollingView */ = {
 			isa = PBXGroup;
 			children = (
-				40E1D831C1486D0DD2E56E28F325F79F /* LICENSE */,
-				07AFEA37705DA23E655CE7C4CE7ED86A /* LXBRollingView.podspec */,
-				3A313F63502E8A0EF02143299D0F64BD /* README.md */,
+				3A5C8FDD26668BFF00551140 /* UUView.h */,
+				3A5C8FDE26668BFF00551140 /* UUView.m */,
+				5AC3D70CB233F19B2EC79107ED192A22 /* KKView.h */,
+				9E938CEF0CCBDF79B04872D7AF69DF0A /* KKView.m */,
+				6469C6F3BAD1F88622E665CC5CC2A041 /* ReplaceMe.m */,
+				1FCA53B888B71592E2124A95FFC5DEA7 /* LXBNoticeViewCell.h */,
+				15E202517805E406AD3B21046CB58D2A /* LXBNoticeViewCell.m */,
+				EA6658B8D7F0FCB4DA1612993CA4A95E /* LXBRollingNoticeView.h */,
+				CCD2B5EF5CE7AD4666218624C5E6422F /* LXBRollingNoticeView.m */,
+				42913B85F1990BE76A59F1115DC25B56 /* lll */,
+				1490833098F7488E67067979D7AF7C41 /* Pod */,
+				870EA2CBA774C7F7869F64ED3646A624 /* Support Files */,
 			);
-			name = Pod;
+			name = LXBRollingView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4859BB6AC4C2981591BD1B7F3537668C /* Development Pods */,
+				4DB53DD5A16453264E7500ECDC6CDF0D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				687A6945687EB50C842165FF160DF644 /* Products */,
 				5939BE8C22576E989DC1913A14FF3462 /* Targets Support Files */,
@@ -232,20 +265,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		66E7B72C7C62B4917DA1755CBAD3732E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C500C54B0B31E1ED90B660538938BFE3 /* LXBRollingView-umbrella.h in Headers */,
-				3A5C8F912666748A00551140 /* KKView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7B87828DD7FC748334E365B9B165E604 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68249C87F36570E8231273B70394DFE4 /* Pods-LXBRollingView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44A35FB4142505E148E8932C7D30B5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099FFBAE1F8DE92310C69747F00A8732 /* KKView.h in Headers */,
+				3A5C8FDF26668BFF00551140 /* UUView.h in Headers */,
+				93EEB68380190387C7BD68C0C2AA045F /* LLLView.h in Headers */,
+				F1E9438DD9104F276A9937AB9385B3F3 /* LXBRollingView-umbrella.h in Headers */,
+				FB00BE365456A5708AB4E179F0C9E5BD /* LXBNoticeViewCell.h in Headers */,
+				B40648EB4CBAB6B8A96AC2F4BE215747 /* LXBRollingNoticeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,12 +299,12 @@
 /* Begin PBXNativeTarget section */
 		1EF17778BAA2FCFC9A994297829EFDB0 /* LXBRollingView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8441042F0F01163D7BEBC582F9AE6B31 /* Build configuration list for PBXNativeTarget "LXBRollingView" */;
+			buildConfigurationList = 0D704B9B29F0CA1A3D67CFACCD195C34 /* Build configuration list for PBXNativeTarget "LXBRollingView" */;
 			buildPhases = (
-				66E7B72C7C62B4917DA1755CBAD3732E /* Headers */,
-				48578D5B394E10786048781186E2D8B2 /* Sources */,
-				DD518C10A1B55A7478010524A4EBEDF7 /* Frameworks */,
-				5E73ACEB5759BC5912A88C3C311514E9 /* Resources */,
+				B44A35FB4142505E148E8932C7D30B5B /* Headers */,
+				88C19A9788FE9F2821E7CDD781CA5C81 /* Sources */,
+				AE5627ECB2C60B3E83BBBC185976C677 /* Frameworks */,
+				A226B1B9DC506F24A827665BEE843A58 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -290,7 +327,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F90F87CB7697410B2BC02DE6DB92D339 /* PBXTargetDependency */,
+				C655D1031872E3844DA03BED4A8719D7 /* PBXTargetDependency */,
 			);
 			name = "Pods-LXBRollingView_Tests";
 			productName = "Pods-LXBRollingView_Tests";
@@ -309,7 +346,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F3AD47D1156EABB26702830262FF15CA /* PBXTargetDependency */,
+				11AE4E11E8E4E781B64F24C8334A07C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-LXBRollingView_Example";
 			productName = "Pods-LXBRollingView_Example";
@@ -353,14 +390,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E73ACEB5759BC5912A88C3C311514E9 /* Resources */ = {
+		7BF0935A7599CD7B66CF0E95170D9E35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BF0935A7599CD7B66CF0E95170D9E35 /* Resources */ = {
+		A226B1B9DC506F24A827665BEE843A58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,30 +423,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48578D5B394E10786048781186E2D8B2 /* Sources */ = {
+		88C19A9788FE9F2821E7CDD781CA5C81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF934B27F9C4EDCF464C0DC4AD17935A /* LXBRollingView-dummy.m in Sources */,
-				DE39C4F6FA4FC423C9EA30CB920F9CFB /* ReplaceMe.m in Sources */,
-				3A5C8F922666748A00551140 /* KKView.m in Sources */,
+				3A5C8FE026668BFF00551140 /* UUView.m in Sources */,
+				F6A734E0511C10A1006E90CE10BE81B8 /* KKView.m in Sources */,
+				65D34DB1FAFC3A89F1FF060829ECA00C /* LLLView.m in Sources */,
+				FE36CE3CB66ED9133F197E50080AFDCE /* LXBRollingView-dummy.m in Sources */,
+				3AD3A6D6A459AA53DB8F58AF71AED6EA /* ReplaceMe.m in Sources */,
+				F220B4360BC16C8DDC9AEE52956A260C /* LXBNoticeViewCell.m in Sources */,
+				8CA6234DB8C2D5ADDFF24FA0FB312A8D /* LXBRollingNoticeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F3AD47D1156EABB26702830262FF15CA /* PBXTargetDependency */ = {
+		11AE4E11E8E4E781B64F24C8334A07C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LXBRollingView;
 			target = 1EF17778BAA2FCFC9A994297829EFDB0 /* LXBRollingView */;
-			targetProxy = CA1AF89099B1AF83F22E80CF94B2AE7E /* PBXContainerItemProxy */;
+			targetProxy = E07F3314F37397EFD072C2A917A79895 /* PBXContainerItemProxy */;
 		};
-		F90F87CB7697410B2BC02DE6DB92D339 /* PBXTargetDependency */ = {
+		C655D1031872E3844DA03BED4A8719D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LXBRollingView_Example";
 			target = 9D30068F0C283257603C51DE5952D2CD /* Pods-LXBRollingView_Example */;
-			targetProxy = 1424D281A03E930E8BC553730ECF9273 /* PBXContainerItemProxy */;
+			targetProxy = 066CE4D0DB48E9881884E43FC44CE87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -480,40 +521,9 @@
 			};
 			name = Debug;
 		};
-		43FE4805626D6A612BCD1C981B8387B8 /* Release */ = {
+		4E5A30AC1EFB3E1A749B2F9805247529 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19FCB220A6DE599C053829A56714AC30 /* LXBRollingView.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LXBRollingView/LXBRollingView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LXBRollingView/LXBRollingView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LXBRollingView/LXBRollingView.modulemap";
-				PRODUCT_MODULE_NAME = LXBRollingView;
-				PRODUCT_NAME = LXBRollingView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A4834112E58E1DF1FB58A6156D5EEC80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 741C71CE0EF06009D69B4965050E891B /* LXBRollingView.debug.xcconfig */;
+			baseConfigurationReference = AF5865937CD26D61E199C7D383A57EF9 /* LXBRollingView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -567,6 +577,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9475D1132FB00A4C29615B1FEE3FBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A022F9E08C46ECCA22E4E4979652E5 /* LXBRollingView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXBRollingView/LXBRollingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXBRollingView/LXBRollingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXBRollingView/LXBRollingView.modulemap";
+				PRODUCT_MODULE_NAME = LXBRollingView;
+				PRODUCT_NAME = LXBRollingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -629,8 +670,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -736,6 +776,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D704B9B29F0CA1A3D67CFACCD195C34 /* Build configuration list for PBXNativeTarget "LXBRollingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5A30AC1EFB3E1A749B2F9805247529 /* Debug */,
+				C9475D1132FB00A4C29615B1FEE3FBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -750,15 +799,6 @@
 			buildConfigurations = (
 				E2361A0A187AA896231291FE3D21DE85 /* Debug */,
 				D5DFD4248B1ECE5AD93E82D17C24ED43 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8441042F0F01163D7BEBC582F9AE6B31 /* Build configuration list for PBXNativeTarget "LXBRollingView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4834112E58E1DF1FB58A6156D5EEC80 /* Debug */,
-				43FE4805626D6A612BCD1C981B8387B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

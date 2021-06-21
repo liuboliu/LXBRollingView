@@ -2,13 +2,13 @@
 //  TPNoticeViewCell.m
 //  TEXT
 //
-//  Created by 朱家乐 on 2021/3/18.
+//  Created by 刘博 on 2021/3/18.
 //  Copyright © 2021 刘博. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface TPNoticeViewCell : UIView
+@interface LXBNoticeViewCell : UIView
 
 @property (nonatomic, readonly, copy) NSString *reuseIdentifier;
 

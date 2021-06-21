@@ -2,26 +2,26 @@
 //  RollingCell.m
 //  TEXT
 //
-//  Created by 朱家乐 on 2021/3/18.
+//  Created by 刘博 on 2021/3/18.
 //  Copyright © 2021 刘博. All rights reserved.
 //
 
-#import "TPNoticeViewCell.h"
-#import "TPRollingNoticeView.h"
+#import "LXBNoticeViewCell.h"
+#import "LXBRollingNoticeView.h"
 
-@interface TPRollingNoticeView ()
+@interface LXBRollingNoticeView ()
 
 @property (nonatomic, strong) NSMutableDictionary *cellClsDict; //注册 cell 的字典，key为cell的类名，value 为identifier
 @property (nonatomic, strong) NSMutableArray *reuseCells; //重用cell的实例对象数组
 @property (nonatomic, strong) NSTimer *timer; //计时器
-@property (nonatomic, strong) TPNoticeViewCell *currentCell; //当前展示的cell
-@property (nonatomic, strong) TPNoticeViewCell *willShowCell; //即将展示的cell
+@property (nonatomic, strong) LXBNoticeViewCell *currentCell; //当前展示的cell
+@property (nonatomic, strong) LXBNoticeViewCell *willShowCell; //即将展示的cell
 @property (nonatomic, assign) BOOL isAnimating; //动画
 @property (nonatomic, assign) BOOL isRefresing ; ///在刷新, 多次刷新的时候，防止上次未执行完的动画对新的一轮刷新造成干扰
 
 @end
 
-@implementation TPRollingNoticeView
+@implementation LXBRollingNoticeView
 
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -47,9 +47,9 @@
     [self.cellClsDict setObject:NSStringFromClass(cellClass) forKey:identifier];
 }
 
-- (__kindof TPNoticeViewCell *)dequeueReusableCellWithIdentifier:(NSString *)identifier
+- (__kindof LXBNoticeViewCell *)dequeueReusableCellWithIdentifier:(NSString *)identifier
 {
-    for (TPNoticeViewCell *cell in self.reuseCells)
+    for (LXBNoticeViewCell *cell in self.reuseCells)
     {
         if ([cell.reuseIdentifier isEqualToString:identifier]) {
             cell.userInteractionEnabled = NO;
@@ -58,7 +58,7 @@
     }
     
     Class cellCls = NSClassFromString(self.cellClsDict[identifier]);
-    TPNoticeViewCell *cell = [[cellCls alloc] initWithReuseIdentifier:identifier];
+    LXBNoticeViewCell *cell = [[cellCls alloc] initWithReuseIdentifier:identifier];
     cell.userInteractionEnabled = NO;
     return cell;
 }

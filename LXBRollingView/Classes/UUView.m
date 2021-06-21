@@ -1,22 +1,14 @@
 //
-//  KKView.m
+//  UUView.m
 //  LXBRollingView
 //
 //  Created by liubo on 2021/6/1.
 //
 
-#import "KKView.h"
+#import "UUView.h"
 
-@implementation KKView
+@implementation UUView
 
-
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    if (self = [super initWithFrame:frame]) {
-        self.backgroundColor = [UIColor redColor];
-    }
-    return self;
-}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
